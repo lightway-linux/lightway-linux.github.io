@@ -14,13 +14,16 @@ KDE Plasma와 그놈은 데스크탑 환경 차원에서 도움말을 제공합�
 
 아치 리눅스는 pacman을 패키지 관리자로 사용하며, 패키지 파일은 pkg.tar.zst 형식입니다.
 
-또한, 아치 리눅스 저장소에서 제공하지 않는 패키지는 AUR Helper를 통해 
+또한, 아치 리눅스 저장소에서 제공하지 않는 패키지는 AUR Helper를 통해 설치할 수 있습니다.
 
- sudo pacman -S           < 프로그램 설치 >
- sudo pacman -Rcn         < 프로그램과 필수 의존성 삭제 >
- sudo pacman -Rnn         < 프로그램 삭제 >
- sudo pacman -Rdd         < 의존성을 무시하고 프로그램 삭제 - 시스템에 문제를 일으킬 수 있으므로 권장하지 않습니다. >
- sudo pacman -U           < 패키지 파일 설치 >
+
+```
+sudo pacman -S           < 프로그램 설치 >
+sudo pacman -Rcn         < 프로그램과 필수 의존성 삭제 >
+sudo pacman -Rnn         < 프로그램 삭제 >
+sudo pacman -Rdd         < 의존성을 무시하고 프로그램 삭제 - 시스템에 문제를 일으킬 수 있으므로 권장하지 않습니다. >
+sudo pacman -U           < 패키지 파일 설치 >
+```
 
 <h3 align="center">시스템 업데이트</h3>
 
