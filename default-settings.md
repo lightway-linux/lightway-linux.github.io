@@ -42,8 +42,6 @@
 
 * 개인 정보 관리자 - 에볼루션(evolution)
 * 미디어 플레이어 - 빠롤(parole)
-* 사진 촬영 - 치즈(cheese)
-* 음악 재생 - 리듬박스(rhythmbox)
 * 터미널 에뮬레이터 - Xfce 터미널(xfce4-terminal)
 * 텍스트 편집 - 텍스트 편집기(xed)
 * 파일 관리자 - 투나 파일 관리자(thunar)
