@@ -10,12 +10,17 @@
 
 KDE Plasma와 그놈은 데스크탑 환경 차원에서 도움말을 제공합니다.
 
+<h3 align="center">모바일 연동</h3>
+
+KDE Plasma 에디션은 KDE Connect가 선탑재되어 설치 즉시 스마트폰과 연동하실 수 있으며, 그놈 에디션은 GSConnect를 설치하신 후 로그아웃하고 다시 로그인하거나 Xorg에선 Alt + F2 키를 누르고 r을 입력하시면 확장을 활성화하실 수 있습니다.
+
+KDE Connect 앱은 안드로이드 스마트폰, iPhone에서 사용하실 수 있습니다.
+
 <h3 align="center">프로그램 설치</h3>
 
 아치 리눅스는 pacman을 패키지 관리자로 사용하며, 패키지 파일은 pkg.tar.zst 형식입니다.
 
-또한, 아치 리눅스 저장소에서 제공하지 않는 패키지는 AUR Helper를 통해 설치할 수 있습니다.
-
+또한, 아치 리눅스 저장소에서 제공하지 않는 패키지는 AUR Helper를 통해 설치할 수 있습니다. yay를 AUR 헬퍼로 제공할 예정입니다.
 
 ```
 sudo pacman -S           < 프로그램 설치 >
@@ -24,6 +29,10 @@ sudo pacman -Rnn         < 프로그램 삭제 >
 sudo pacman -Rdd         < 의존성을 무시하고 프로그램 삭제 - 시스템에 문제를 일으킬 수 있으므로 권장하지 않습니다. >
 sudo pacman -U           < 패키지 파일 설치 >
 ```
+
+<h4 align="center">다른 패키지 관리자 사용</h4>
+
+라이트웨이는 flatpak을 선탑재하고 있으며, flatpak install으로 프로그램을 설치하실 수 있습니다. 또한, 우분투의 패키지 관리자인 snap을 AUR에서 설치하실 수 있습니다.
 
 <h3 align="center">시스템 업데이트</h3>
 
