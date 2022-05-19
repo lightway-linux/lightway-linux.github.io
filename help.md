@@ -4,9 +4,25 @@
 
 <h2 align="center">설치하기</h2>
 
+1. BIOS 설정에 진입하여 Secure Boot를 비활성화하십시오. 메인보드 제조사, PC 제조사마다 진입 키가 다릅니다.
+2. 설치 미디어가 장착되었으면 부팅 메뉴를 불러오십시오. 부팅 메뉴 키는 F9, Del 등 제조사마다 다릅니다.
+3. 바탕화면 및 독에 위치한 칼라마레스 아이콘을 클릭하십시오.
+
+<h3 align="center">Windows와 함께 설치</h3>
+
+새로운 컴퓨터에서 설치하실 땐 반드시 Windows를 먼저 설치하신 후 파티션을 조정하고 lightway를 설치하셔야 합니다.
+
+<h3 align="center">ChromeOS 듀얼부팅</h3>
+
+brunch framework의 페이지를 참고하십시오. 
+
+<p align="center">(* ChromeOS와 듀얼부팅은 Secure Boot와 같이 사용하실 수 없습니다.)</p>
+
 <h2 align="center">운영체제 사용</h2>
 
 <h3 align="center">데스크탑 환경</h3>
+
+라이트웨이는 KDE Plasma, 그놈, Xfce 에디션을 제공하며, 각 에디션별 UI 구성은 데스크탑 환경의 기본 UI를 따릅니다.
 
 KDE Plasma와 그놈은 데스크탑 환경 차원에서 도움말을 제공합니다.
 
@@ -15,6 +31,8 @@ KDE Plasma와 그놈은 데스크탑 환경 차원에서 도움말을 제공합�
 KDE Plasma 에디션은 KDE Connect가 선탑재되어 설치 즉시 스마트폰과 연동하실 수 있으며, 그놈 에디션은 GSConnect를 설치하신 후 로그아웃하고 다시 로그인하거나 Xorg에선 Alt + F2 키를 누르고 r을 입력하시면 확장을 활성화하실 수 있습니다.
 
 KDE Connect 앱은 안드로이드 스마트폰, iPhone에서 사용하실 수 있습니다.
+
+<p align="center">(* Xfce 에디션에서는 공식적으로 작동을 보장하지 않습니다.)</p>
 
 <h3 align="center">프로그램 설치</h3>
 
